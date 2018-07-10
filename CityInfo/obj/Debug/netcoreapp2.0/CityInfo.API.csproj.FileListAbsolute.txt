@@ -14,9 +14,9 @@ C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\bin\Debug\netcoreapp2.0\Cit
 C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\bin\Debug\netcoreapp2.0\CityInfo.API.runtimeconfig.dev.json
 C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\bin\Debug\netcoreapp2.0\CityInfo.API.dll
 C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\bin\Debug\netcoreapp2.0\CityInfo.API.pdb
-C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\obj\Debug\netcoreapp2.0\CityInfo.API.csprojAssemblyReference.cache
 C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\obj\Debug\netcoreapp2.0\CityInfo.API.csproj.CoreCompileInputs.cache
 C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\obj\Debug\netcoreapp2.0\CityInfo.API.AssemblyInfoInputs.cache
 C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\obj\Debug\netcoreapp2.0\CityInfo.API.AssemblyInfo.cs
 C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\obj\Debug\netcoreapp2.0\CityInfo.API.dll
 C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\obj\Debug\netcoreapp2.0\CityInfo.API.pdb
+C:\Users\loredana.caruntu\Desktop\City Repo\CityInfo\obj\Debug\netcoreapp2.0\CityInfo.API.csprojAssemblyReference.cache

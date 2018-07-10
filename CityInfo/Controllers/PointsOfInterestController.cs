@@ -47,7 +47,7 @@ namespace CityInfo.API.Controllers
                 return BadRequest();
             }
 
-            if(pointOfInterest.Description == pointOfInterest.Name)
+            if (pointOfInterest.Description == pointOfInterest.Name)
             {
                 ModelState.AddModelError("Description", "The provided description should be different from the name.");
             }
@@ -77,7 +77,7 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpPut("{cityId}/pointsofinterest/{id}")]
-        public IActionResult UpdatePointOfInterest(int cityId,int id,[FromBody] PointOfInterestForUpdateDto pointOfInterest)
+        public IActionResult UpdatePointOfInterest(int cityId, int id, [FromBody] PointOfInterestForUpdateDto pointOfInterest)
         {
             if (pointOfInterest == null)
             {
@@ -113,5 +113,27 @@ namespace CityInfo.API.Controllers
 
             return NoContent();
         }
+
+        [HttpDelete("{cityId}/pointsofinterest/{id}")]
+        public IActionResult DeletePointOfInterest(int cityId, int id)
+        {
+            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+
+            if (city == null)
+            {
+                return NotFound();
+            }
+
+            var pointOfInterestFromStore = city.PointOfInterest.FirstOrDefault(c => c.Id == id);
+            if(pointOfInterestFromStore == null)
+            {
+                return NotFound();
+            }
+
+            city.PointOfInterest.Remove(pointOfInterestFromStore);
+
+            return NoContent();
+        }
+
     }
 }
