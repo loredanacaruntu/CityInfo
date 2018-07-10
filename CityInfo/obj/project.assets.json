@@ -12668,11 +12668,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loredana.caruntu\\Desktop\\CityInfo\\CityInfo\\CityInfo.API.csproj",
+      "projectUniqueName": "C:\\Users\\loredana.caruntu\\Desktop\\City Repo\\CityInfo\\CityInfo.API.csproj",
       "projectName": "CityInfo.API",
-      "projectPath": "C:\\Users\\loredana.caruntu\\Desktop\\CityInfo\\CityInfo\\CityInfo.API.csproj",
+      "projectPath": "C:\\Users\\loredana.caruntu\\Desktop\\City Repo\\CityInfo\\CityInfo.API.csproj",
       "packagesPath": "C:\\Users\\loredana.caruntu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\loredana.caruntu\\Desktop\\CityInfo\\CityInfo\\obj\\",
+      "outputPath": "C:\\Users\\loredana.caruntu\\Desktop\\City Repo\\CityInfo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
